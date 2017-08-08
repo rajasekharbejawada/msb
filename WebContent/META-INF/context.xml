@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/sb">
+
+   <!-- DEV Database Connection pool Configuration START -->
+       <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://192.168.1.137:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>  
+    <!-- DEV Database Connection pool Configuration END -->
+
+    <!-- DEV Database Connection pool Configuration START -->
+
+    <!-- DEV Database Connection pool Configuration END -->
+    
+    <!-- From Hubble publicIP Connection pool Configuration START -->
+   <!-- <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://24.172.189.103:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>  -->
+<!-- QA Database Connection pool Configuration END -->   
+    
+    <!-- STAGE Database Connection pool Configuration START -->
+    <!--    <Resource 
+    auth="Container" 
+    description="c3pO DataSource" 
+    driverClass="com.mysql.jdbc.Driver" 
+    factory="org.apache.naming.factory.BeanFactory" 
+    jdbcUrl="jdbc:mysql://192.168.1.137:3306/servicebay?autoReconnect=true" 
+    name="jndi/msb" 
+    password="lokam001"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource" 
+    user="miracledb"/>  -->
+    <!-- STAGE Database Connection pool Configuration END -->
+    
+  
+    
+</Context>
